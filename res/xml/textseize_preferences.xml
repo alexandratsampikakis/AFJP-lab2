@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory 
+        android:title="@string/pref_size" >
+        
+        <ListPreference android:title="@string/pref_size"
+            android:key="sizePref"
+            android:defaultValue="1"
+            android:entries="@array/listArraySize"
+            android:entryValues="@array/listValuesSize" />
+
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

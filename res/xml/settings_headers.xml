@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <header
+            android:id="@+id/backgroundColorSettings"
+            android:fragment="com.example.dv106lab2.menuSettings.BackgroundColorFragment"
+            android:title="@string/background_color_settings" />
+    
+    <header
+            android:id="@+id/textSizeSettings"
+            android:fragment="com.example.dv106lab2.menuSettings.TextSizeSettings"
+            android:title="@string/size_settings" />
+    
+</preference-headers>
